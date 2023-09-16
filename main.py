@@ -67,11 +67,6 @@ for filepath in filepaths:
     pdf.set_text_color(0, 0, 0)
     pdf.cell(w=90, h=8, txt=f'ABC Company', align='L')
 
-
-
-
-
-
     pdf.output(f'Outputs/{filename}.pdf')
 
 
